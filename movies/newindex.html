@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movie</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+</head>
+<body>
+    <div>
+        <h1>My Favorite Movie</h1>
+    </div>
+    <form>
+      <h3>Title</h3>
+      <input type="text" id="title">
+      <h3>Rating</h3>
+      <input type="text" id="rating">
+      <button>Submit</button>
+    </form>
+
+    <div>
+      <table>
+      <tr id="table-head">
+        <th>Title     </th>
+        <th>Rating      </th>
+        <th>Delete</th>
+      </tr>
+    </table>
+      <table id="table">
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    
+    <script src="movies-app.js"></script>
+</body>
+</html>
